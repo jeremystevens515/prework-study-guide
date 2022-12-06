@@ -1,0 +1,56 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+header, 
+footer {
+
+    width: 100%;
+    height: 120px;
+    background-color: #3A4699;
+    color: white;
+
+}
+
+h1,
+h2 {
+
+    text-align: center;
+
+}
+
+img {
+
+    display: block; /*block tells the browser that each image starts on a new line*/
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ul {
+
+    padding-left: 40px;
+    font-size: 20px;
+
+}
+
+p {
+
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.card{
+
+    width: 80%;
+    margin: 40px /*top & bottom*/ auto /*left & right*/;
+    border: 5px solid /*width & solid*/ gray;
+    box-shadow: 5px /*x-offset(right)*/ 10px /*y-offset(below)*/ #888888;
+
+}
