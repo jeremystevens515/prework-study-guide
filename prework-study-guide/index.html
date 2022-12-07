@@ -48,15 +48,26 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
+          <li>First, clone the remote repository onto your local machine</li>
           <li>Git flow starts with the main branch. The main branch is the master file of code for our website.</li>
-          <ul>
-            <li>git add -A</li>
-            <li>git commit -m "write detailed message"</li>
-            <li>git pull origin main</li>
-            <li>git push origin feature/branch-name)</li>
-          </ul>
+          <li>To created a new branch:</li>
+            <ul>
+              <li>git checkout main</li>
+              <li>git pull origin main</li>
+              <li>git checkout -b feature/branch-name</li>
+            </ul>
+          <li>To commit your changes to the remote working branch:</li>
+            <ul>
+              <li>git add -A</li>
+              <li>git commit -m "write detailed message"</li>
+              <li>git pull origin main</li>
+              <li>git push origin feature/branch-name)</li>
+            </ul>
           <li>Lastly, once you are confident in your new feature, submit a pull request for team members to review your work before merging
             the new feature into the main branch.</li>
+          <li>It is best practice to delete feature branches once you are finished working in them.</li>
+          <li>Always switch to and pull the latest version of the main branch to make sure you are up to date with 
+            git checkout main and then git pull origin main</li>    
         </ul>
 
       </section>
